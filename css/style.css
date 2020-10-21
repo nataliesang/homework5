@@ -234,8 +234,23 @@ header{
 
 @media print { 
   .card {
-    flex-basis: 200px;
+    flex-basis: 225px;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
   }
+
+  .pricing{
+    min-height: 500px;
+    /*Your code here.*/
+    /*Don't forget to vertically and horizontally alight the card*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: start;
+    justify-content: start;
+  }
+
   body{
     font-family: 'Raleway', sans-serif; /* Test for this*/
     margin: 0;
